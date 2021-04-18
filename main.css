@@ -1,0 +1,53 @@
+/* usando . faz referencia a uma class
+usando # faz referença a id */
+#titleGame {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0,3%;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+#game {
+     display: none;
+}
+.rank {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    
+}
+#tabelasDoJogo {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+    margin-bottom: 20%;
+}
+table {
+    width: 500px;
+    height: 500px;
+    
+}
+table.center {
+    
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+table td {
+    width: 33.33%;
+    height: 150px !important;
+    text-align: center;
+}
+
+
+
+.border-top-border-bottom{
+    border-top: 5px solid black;
+    border-bottom:  5px solid black;
+}
+.border-left-border-right{
+    border-left: 5px solid black;
+    border-right:  5px solid black;
+}
